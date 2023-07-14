@@ -1,26 +1,25 @@
-<!DOCTYPE html> 
-
-<html> 
-
-<head> 
-
-    <title>My Site</title> 
-
-</head> 
-
-<body> 
-
-    <h1>My Site</h1> 
-
-    <p>My Lightning Component:</p> 
-
-  https://resourceful-raccoon-5pt3bp-dev-ed.trailblaze.my.site.com/AccountList 
-
-</body> 
-
-<script src="https://yourSiteDomain/siteURL/lightning/lightning.out.js"></script>
-
-</html> 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lightning Out Example</title>
+    <script src="https://resourceful-raccoon-5pt3bp-dev-ed.trailblaze.my.site.com/AccountList"></script>
+</head>
+<body>
+    <div id="lightning-container"></div>
+    <script>
+        $Lightning.use("c:FetchAccountsApp", function() {
+            $Lightning.createComponent(
+                "c:FetchAccounts",
+                {},
+                "lightning-container",
+                function(cmp) {
+                    // Callback function executed after component creation
+                }
+            );
+        });
+    </script>
+</body>
+</html>
 
 
 
