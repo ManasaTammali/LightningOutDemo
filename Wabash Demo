@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+
+<html> 
+
+    <head> 
+
+        <title>My Web Page with iFrame</title> 
+
+    </head> 
+
+    <body> 
+
+        <h1>Welcome to My Web Page!</h1> 
+
+        <p>This is a sample webpage with an iframe.</p> 
+
+        <iframe src="https://www.google.com"  
+
+                width="600"  
+
+                height="450"  
+
+                frameborder="0"  
+
+                style="border:0"  
+
+                allowfullscreen="true"></iframe> 
+
+    </body> 
+
+</html> 
