@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click on this button</title>
+  <style>
+    button {
+      color: blue;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <p>Click on this button:</p>
+  <button>Secure messaging</button>
+</body>
+</html>
